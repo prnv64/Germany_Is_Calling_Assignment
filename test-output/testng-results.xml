@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[LoginPage is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Message is displayed and matched]]>
+    </line>
+    <line>
+      <![CDATA[Signup page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[LoginPage is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Error Message is displayed and Matched]]>
+    </line>
+    <line>
+      <![CDATA[LoginPage is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Message is displayed and matched]]>
+    </line>
+    <line>
+      <![CDATA[LoginPage is displayed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-09-11T01:55:55 IST" name="Suite" finished-at="2024-09-11T01:56:15 IST" duration-ms="20533">
+    <groups>
+    </groups>
+    <test started-at="2024-09-11T01:55:55 IST" name="Test" finished-at="2024-09-11T01:56:15 IST" duration-ms="20533">
+      <class name="com.GIC.testcase.login.GIC_Login01Test">
+        <test-method is-config="true" signature="launchTheBrowser(java.lang.String)[pri:0, instance:com.GIC.testcase.login.GIC_Login01Test@59662a0b]" started-at="2024-09-11T01:56:09 IST" name="launchTheBrowser" finished-at="2024-09-11T01:56:13 IST" duration-ms="4128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method signature="Verify_User_can_Able_To_Login_With_Valid_Credentials()[pri:0, instance:com.GIC.testcase.login.GIC_Login01Test@59662a0b]" started-at="2024-09-11T01:56:13 IST" name="Verify_User_can_Able_To_Login_With_Valid_Credentials" finished-at="2024-09-11T01:56:15 IST" duration-ms="2473" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[LoginPage is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify_User_can_Able_To_Login_With_Valid_Credentials -->
+      </class> <!-- com.GIC.testcase.login.GIC_Login01Test -->
+      <class name="com.GIC.testcase.login.GIC_Login04Test">
+        <test-method is-config="true" signature="launchTheBrowser(java.lang.String)[pri:0, instance:com.GIC.testcase.login.GIC_Login04Test@4efbca5a]" started-at="2024-09-11T01:56:02 IST" name="launchTheBrowser" finished-at="2024-09-11T01:56:04 IST" duration-ms="2111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method signature="Verify_That_If_User_Is_Not_Entering_Any_Data_In_Username_And_Password_Textfield_And_Click_On_Login__We_Should_Get_Proper_Error_Message()[pri:0, instance:com.GIC.testcase.login.GIC_Login04Test@4efbca5a]" started-at="2024-09-11T01:56:04 IST" name="Verify_That_If_User_Is_Not_Entering_Any_Data_In_Username_And_Password_Textfield_And_Click_On_Login__We_Should_Get_Proper_Error_Message" finished-at="2024-09-11T01:56:05 IST" duration-ms="574" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[LoginPage is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Error Message is displayed and Matched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify_That_If_User_Is_Not_Entering_Any_Data_In_Username_And_Password_Textfield_And_Click_On_Login__We_Should_Get_Proper_Error_Message -->
+      </class> <!-- com.GIC.testcase.login.GIC_Login04Test -->
+      <class name="com.GIC.testcase.login.GIC_Login03Test">
+        <test-method is-config="true" signature="launchTheBrowser(java.lang.String)[pri:0, instance:com.GIC.testcase.login.GIC_Login03Test@1b7cc17c]" started-at="2024-09-11T01:56:05 IST" name="launchTheBrowser" finished-at="2024-09-11T01:56:06 IST" duration-ms="1216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method signature="Verify_That_If_User_Enter_Invalid_Username_We_Should_Get_Proper_Error_Message()[pri:0, instance:com.GIC.testcase.login.GIC_Login03Test@1b7cc17c]" started-at="2024-09-11T01:56:06 IST" name="Verify_That_If_User_Enter_Invalid_Username_We_Should_Get_Proper_Error_Message" finished-at="2024-09-11T01:56:09 IST" duration-ms="2618" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[LoginPage is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Message is displayed and matched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify_That_If_User_Enter_Invalid_Username_We_Should_Get_Proper_Error_Message -->
+      </class> <!-- com.GIC.testcase.login.GIC_Login03Test -->
+      <class name="com.GIC.testcase.registration.GIC_Register01Test">
+        <test-method is-config="true" signature="launchTheBrowser(java.lang.String)[pri:0, instance:com.GIC.testcase.registration.GIC_Register01Test@6069db50]" started-at="2024-09-11T01:55:59 IST" name="launchTheBrowser" finished-at="2024-09-11T01:56:00 IST" duration-ms="1217" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method signature="Verify_User_Can_Able_To_Register()[pri:0, instance:com.GIC.testcase.registration.GIC_Register01Test@6069db50]" started-at="2024-09-11T01:56:00 IST" name="Verify_User_Can_Able_To_Register" finished-at="2024-09-11T01:56:02 IST" duration-ms="1968" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Signup page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify_User_Can_Able_To_Register -->
+      </class> <!-- com.GIC.testcase.registration.GIC_Register01Test -->
+      <class name="com.GIC.testcase.login.GIC_Login02Test">
+        <test-method is-config="true" signature="launchTheBrowser(java.lang.String)[pri:0, instance:com.GIC.testcase.login.GIC_Login02Test@5c33f1a9]" started-at="2024-09-11T01:55:55 IST" name="launchTheBrowser" finished-at="2024-09-11T01:55:57 IST" duration-ms="2145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method signature="Verify_That_If_User_Enter_Invalid_Password_We_Should_Get_Proper_Error_Message()[pri:0, instance:com.GIC.testcase.login.GIC_Login02Test@5c33f1a9]" started-at="2024-09-11T01:55:57 IST" name="Verify_That_If_User_Enter_Invalid_Password_We_Should_Get_Proper_Error_Message" finished-at="2024-09-11T01:55:59 IST" duration-ms="2041" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[LoginPage is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Message is displayed and matched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify_That_If_User_Enter_Invalid_Password_We_Should_Get_Proper_Error_Message -->
+      </class> <!-- com.GIC.testcase.login.GIC_Login02Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

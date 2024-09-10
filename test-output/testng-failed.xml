@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.GIC.testcase.login.GIC_Login04Test">
+        <methods>
+          <include name="Verify_That_If_User_Is_Not_Entering_Any_Data_In_Username_And_Password_Textfield_And_Click_On_Login__We_Should_Get_Proper_Error_Message"/>
+          <include name="launchTheBrowser"/>
+          <include name="reportSetUp"/>
+        </methods>
+      </class> <!-- com.GIC.testcase.login.GIC_Login04Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

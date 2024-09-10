@@ -1,0 +1,6 @@
+com\GIC\genericlibrary\BaseTest.class
+com\GIC\genericlibrary\JavaUtility.class
+com\GIC\genericlibrary\DataUtility.class
+com\GIC\pom_repository\SignUpPage.class
+com\GIC\pom_repository\LoginPage.class
+com\GIC\genericlibrary\ListenersImplementation.class
